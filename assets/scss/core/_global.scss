@@ -1,0 +1,27 @@
+html, body {
+  font-family: $main-font;
+  font-size: 100%;
+}
+body {
+  background-color:#F8F5F8 ;
+  color:#333333;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  &.overflow-in {
+    overflow: hidden;
+  }
+}
+img, svg {
+  max-width: 100%;
+}
+a {
+  cursor: pointer;
+
+  &:hover,
+  &:visited{
+    text-decoration: none;
+  }
+}

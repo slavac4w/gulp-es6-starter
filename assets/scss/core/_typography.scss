@@ -1,0 +1,47 @@
+h1{
+	font-size: 50px;
+	font-weight: 700;
+	@include breakpoint($medium) {
+		font-size: 24px;
+	}
+}
+h2,
+.demi{
+	font-size: 40px;
+	font-weight: 500;
+	@include breakpoint($medium){
+		font-size: 24px;
+	}
+}
+h3{
+	font-size: 20px;
+	font-weight: 600;
+	@include breakpoint($medium){
+
+	}
+}
+h4{
+	font-size: 16px;
+	font-weight: 700;
+	@include breakpoint($medium){
+
+	}
+}
+p{
+	font-size: 16px;
+	font-weight: 400;
+	@include breakpoint($medium){
+
+	}
+}
+p.small{
+	font-size: 12px;
+	font-weight: 500;
+	@include breakpoint($medium){
+
+	}
+}
+a{
+	font-weight: 400;
+	color:#2113ff;
+}  
